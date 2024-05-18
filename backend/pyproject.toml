@@ -106,6 +106,8 @@ slack_bolt = "^1.18.1"
 [tool.poetry.group.discord.dependencies]
 discord = "^2.3.2"
 
+[tool.poetry.group.teams.dependencies]
+botbuilder-core = "^4.15.0"
 
 [build-system]
 requires = ["poetry-core"]
